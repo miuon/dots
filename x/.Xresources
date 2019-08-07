@@ -17,4 +17,4 @@ urxvt*transparent: false
 urxvt*internalBorder: 10
 urxvt*borderLess:false
 
-#include "/home/miuon/.xcolors"
+#include ".xcolors"
