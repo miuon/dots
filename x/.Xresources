@@ -1,11 +1,5 @@
-Xft.dpi: 144
-
 urxvt*font: xft:mononoki Nerd Font Mono:size=16:antialias=true, \
             xft:Symbola:pixelsize=14:antialias=true:hinting=slight
-
-urxvt*boldFont: 
-urxvt*italicFont: 
-urxvt*bolditalicFont: 
 
 urxvt*letterSpace: 0
 urxvt*lineSpace: 0
