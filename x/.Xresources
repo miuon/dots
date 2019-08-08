@@ -15,3 +15,6 @@ URxvt.perl-lib: /usr/lib/urxvt/perl/
 URxvt.perl-ext-common: default,matcher,config-reload
 
 #include ".xcolors"
+#if __has_include(".xhost")
+#include(".xhost")
+#endif
