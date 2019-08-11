@@ -1,0 +1,45 @@
+moveamount 35
+borderwidth 3
+color activeborder	"#c0b18b"
+color inactiveborder	"#444b4b"
+
+snapdist 10
+
+ignore polybar
+autogroup 1 qutebrowser
+autogroup 2 URxvt
+autogroup 3 discord
+autogroup 3 Slack
+autogroup 6 Pavucontrol
+autogroup 6 ncmpcpp,
+
+unbind-key all
+unbind-mouse all
+
+bind-key M-u group-toggle-1
+bind-key M-i group-toggle-2
+bind-key M-o group-toggle-3
+bind-key M-p group-toggle-4
+bind-key M-m group-toggle-6
+
+bind-key M-Return	"urxvt"
+bind-key M-d		"rofi -show drun"
+bind-key MS-r		restart
+bind-key MS-e		quit
+
+bind-key M-h		window-move-left
+bind-key M-j		window-move-down
+bind-key M-k		window-move-up
+bind-key M-l		window-move-right
+
+bind-key MS-h		window-resize-left
+bind-key MS-j		window-resize-down
+bind-key MS-k		window-resize-up
+bind-key MS-l		window-resize-right
+
+bind-key M-Tab		window-cycle
+bind-key MS-Tab		window-rcycle
+bind-key M-q		window-delete
+
+bind-mouse M-1 window-move
+bind-mouse M-3 window-resize

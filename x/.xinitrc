@@ -31,10 +31,13 @@ fi
 session=${1:-i3}
 
 start-pulseaudio-x11
+mopidy &
 nitrogen --restore &
+$HOME/bin/polybar-launch
 
 case $session in
 	i3|i3wm 	) exec i3;;
+	cwm|c           ) exec cwm;;
 	wmutils|wmu 	) exec wmutils;;
 	* 		) exec $1;;
 esac
