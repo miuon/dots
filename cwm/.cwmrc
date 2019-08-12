@@ -1,7 +1,7 @@
 moveamount 35
 borderwidth 3
-color activeborder	"#c0b18b"
-color inactiveborder	"#444b4b"
+color activeborder	"#cdcdcd"
+color inactiveborder	"#000000"
 
 snapdist 10
 
