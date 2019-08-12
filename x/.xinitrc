@@ -36,8 +36,10 @@ nitrogen --restore &
 $HOME/bin/polybar-launch
 
 case $session in
-	i3|i3wm 	) exec i3;;
-	cwm|c           ) exec cwm;;
-	wmutils|wmu 	) exec wmutils;;
-	* 		) exec $1;;
+	i3|i3wm 	) wmcmd=i3;;
+	cwm|c           ) wmcmd=cwm;;
+	wmutils|wmu 	) wmcmd=wmutils;;
+	* 		) wmcmd=$1;;
 esac
+
+exec ck-launch-session dbus-launch --sh-syntax --exit-with-x11 $wmcmd
