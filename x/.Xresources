@@ -1,14 +1,14 @@
-urxvt*font: xft:mononoki Nerd Font Mono:size=16:antialias=true:hinting=true, \
+urxvt*font: xft:SpaceMono Nerd Font Mono:size=15:antialias=true:hinting=true, \
             xft:Symbola:pixelsize=14:antialias=true:hinting=slight
 
 urxvt*letterSpace: 0
-urxvt*lineSpace: 0
+urxvt*lineSpace: -1
 
 urxvt*scrollBar: false
 urxvt.saveLines: 9999
 urxvt.iso14755: false
 urxvt*transparent: false
-urxvt*internalBorder: 10
+urxvt*internalBorder: 15
 urxvt*borderLess:false
 
 URxvt.perl-lib: /usr/lib/urxvt/perl/
