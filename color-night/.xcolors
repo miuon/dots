@@ -2,6 +2,9 @@
 *.cursorColor:  		#DCDCDC
 *background:			#1D1F28
 urxvt*borderColor:		#1D1F28
+*accentColor:  #79E6F3
+*urgentColor:  #F37F97
+*altBackground: #282A36
 
 *color0:				#282A36
 *color8:				#282A36

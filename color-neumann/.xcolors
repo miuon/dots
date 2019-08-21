@@ -1,38 +1,41 @@
 ! neumann
 
 ! special
-*.foreground:   #fdfdfd
-*.background:   #202020
-*.cursorColor:  #fdfdfd
+*foreground:   #fdfdfd
+*background:   #202020
+*cursorColor:  #f084ee
+*accentColor:  #f084ee
+*urgentColor:  #db53d9
+*altBackground: #323232
 
 ! black
-*.color0:       #282a36
-*.color8:       #414458
+*color0:       #323232
+*color8:       #414458
 
 ! red
-*.color1:       #db53d9
-*.color9:       #f084ee
+*color1:       #db53d9
+*color9:       #f084ee
 
 ! green
-*.color2:       #17c484
-*.color10:      #56e7b1
+*color2:       #17c484
+*color10:      #56e7b1
 
 ! yellow
-*.color3:       #ded846
-*.color11:      #e7ef77
+*color3:       #ded846
+*color11:      #e7ef77
 
 ! blue
-*.color4:       #654ada
-*.color12:      #785fe1
+*color4:       #654ada
+*color12:      #785fe1
 
 ! magenta
-*.color5:       #994ada
-*.color13:      #b775ee
+*color5:       #994ada
+*color13:      #b775ee
 
 ! cyan
-*.color6:       #0ebdc1
-*.color14:      #43dbde
+*color6:       #0ebdc1
+*color14:      #43dbde
 
 ! white
-*.color7:       #fdfdfd
-*.color15:      #bebec1
+*color7:       #fdfdfd
+*color15:      #bebec1
