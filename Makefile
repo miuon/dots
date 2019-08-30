@@ -1,17 +1,17 @@
 lovelace: ## Old work colors
-	ln -vsf ${PWD}/color-lovelace/.xcolors ${HOME}/.xcolors
+	ln -vsf ${PWD}/themes/lovelace/.xcolors ${HOME}/.xcolors
 	mkdir -p ${HOME}/.config/rofi
-	ln -vsf ${PWD}/color-lovelace/.config/rofi/dracula.rasi ${HOME}/.config/rofi/dracula.rasi
+	ln -vsf ${PWD}/themes/lovelace/dracula.rasi ${HOME}/.config/rofi/dracula.rasi
 	xrdb ${HOME}/.Xresources
 
 night: ## Current home desktop colors
-	ln -vsf ${PWD}/color-night/.xcolors ${HOME}/.xcolors
+	ln -vsf ${PWD}/themes/night/.xcolors ${HOME}/.xcolors
 	xrdb ${HOME}/.Xresources
 
 oheight: ## New work desktop colors (oc)
-	ln -vsf ${PWD}/color-oheight/.xcolors ${HOME}/.xcolors
+	ln -vsf ${PWD}/themes/oheight/.xcolors ${HOME}/.xcolors
 	mkdir -p ${HOME}/.config/rofi
-	ln -vsf ${PWD}/color-oheight/.config/rofi/dracula.rasi ${HOME}/.config/rofi/dracula.rasi
+	ln -vsf ${PWD}/themes/oheight/dracula.rasi ${HOME}/.config/rofi/dracula.rasi
 	xrdb ${HOME}/.Xresources
 
 deploy-cwm: ## CWM window manager config
