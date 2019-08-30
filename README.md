@@ -1,5 +1,5 @@
 # Dotfiles
-These are my graphical dotfiles, cli dotfiles are at [miuon/dots](https://github.com/miuon/dots). To set up a graphical system I use both repos. This also contains color schemes, one per stow package. These should sit alongside the main dotfiles. No guarantees that they'll be kept completely up to date with the main files.
+These are my graphical dotfiles, cli dotfiles are at [miuon/dots](https://github.com/miuon/dots). To set up a graphical system I use both repos. This also contains color schemes, within the themes directory. These should sit alongside the main dotfiles. No guarantees that they'll be kept completely up to date with the main files.
 
 ## System details
 + **OS**: Arch, maybe OpenBSD in the future
@@ -12,8 +12,8 @@ These are my graphical dotfiles, cli dotfiles are at [miuon/dots](https://github
 ## Screenshots
 Coming later
 
-## Stow directories
-This repo is meant to be deployed using [GNU Stow](https://gnu.org/software/stow)([pacman](https://archlinux.org/packages/community/any/stow)). For example, cd into the root and run `stow i3` to deploy my i3 config. This assumes you've cloned the repo into your home directory, if you haven't, you can do `stow -t $HOME i3` instead to target your home directory.
+## Make layout
+This repo is meant to be deployed using [GNU Make](https://gnu.org/software/make). For example, cd into the root and run `make i3` to deploy my i3 config. Themes are within the themes directory, and each have their own make rule. For example, deploy the "oheight" theme using `make oheight`.
 
 | Package Name | Description | Dependencies |
 | --- | --- | --- |
