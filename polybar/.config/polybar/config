@@ -6,6 +6,7 @@ include-file = ~/.config/polybar/bars.ini
 ; Base bar, inherit from this
 [bar/base]
 bottom = false
+override-redirect = true
 fixed-center = true
 width = 100%
 height = 40
@@ -21,7 +22,7 @@ underline-color = ${color.bg}
 border-bottom-size = 6
 border-color = ${color.mf}
 
-font-0 = "SpaceMono Nerd Font Mono:size=15;2"
+font-0 = "SpaceMono Nerd Font Mono:size=16;2"
 
 ; TODO: implement restarting using IPC
 enable-ipc = true

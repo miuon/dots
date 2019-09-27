@@ -7,6 +7,7 @@ snapdist 10
 
 ignore polybar
 autogroup 1 qutebrowser
+autogroup 1 firefox
 autogroup 2 URxvt
 autogroup 3 discord
 autogroup 3 Slack
@@ -23,7 +24,7 @@ bind-key M-p group-toggle-4
 bind-key M-m group-toggle-6
 
 bind-key M-Return	"urxvt"
-bind-key M-d		"rofi -show drun"
+bind-key M-d		"appsmenu"
 bind-key MS-r		restart
 bind-key MS-e		quit
 
@@ -36,6 +37,8 @@ bind-key MS-h		window-resize-left
 bind-key MS-j		window-resize-down
 bind-key MS-k		window-resize-up
 bind-key MS-l		window-resize-right
+
+bind-key M-f		window-fullscreen
 
 bind-key M-Tab		window-cycle
 bind-key MS-Tab		window-rcycle
