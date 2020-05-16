@@ -6,7 +6,7 @@ include-file = ~/.config/polybar/bars.ini
 ; Base bar, inherit from this
 [bar/base]
 bottom = false
-override-redirect = true
+override-redirect = false
 fixed-center = true
 width = 100%
 height = 40

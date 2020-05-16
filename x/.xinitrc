@@ -1,7 +1,7 @@
 #!/bin/sh
 
-xrandr --output DP-3 --right-of HDMI-0
-xrandr --output DP-0 --primary --right-of DP-3
+xrandr --output DP-2 --right-of HDMI-0
+xrandr --output DP-0 --primary --right-of DP-2
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
@@ -31,15 +31,19 @@ session=${1:-i3}
 
 start-pulseaudio-x11
 mopidy &
-nitrogen --restore &
-$HOME/bin/polybar-launch
+lxpolkit &
+#nitrogen --restore &
+#$HOME/bin/polybar-launch
 
 case $session in
 	i3|i3wm 	) wmcmd=i3;;
+	berry|b 	) wmcmd=berry;;
 	cwm|c           ) wmcmd=cwm;;
 	wmutils|wmu 	) wmcmd=wmutils;;
+	openbox         ) wmcmd=openbox-session;;
 	* 		) wmcmd=$1;;
 esac
 
 #exec ck-launch-session dbus-launch --sh-syntax --exit-with-x11 $wmcmd
 exec $wmcmd
+#exec berry -d >~/out.txt 2>~/error.txt
