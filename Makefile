@@ -20,11 +20,11 @@ i3: ## Basic i3 config
 
 polybar: ## Polybar config, themed from Xresources
 	mkdir -p ${HOME}/.config/polybar
-	ln -vsf ${PWD}/tools/polybar/.config/polybar/config ${HOME}/.config/polybar/config
-	ln -vsf ${PWD}/tools/polybar/.config/polybar/modules.ini ${HOME}/.config/polybar/modules.ini
-	ln -vsf ${PWD}/tools/polybar/.config/polybar/user_modules.ini ${HOME}/.config/polybar/user_modules.ini
-	ln -vsf ${PWD}/tools/polybar/.config/polybar/colors.ini ${HOME}/.config/polybar/colors.ini
-	ln -vsf ${PWD}/tools/polybar/.config/polybar/scripts ${HOME}/.config/polybar/scripts
+	ln -vsf ${PWD}/tools/polybar/config ${HOME}/.config/polybar/config
+	ln -vsf ${PWD}/tools/polybar/modules.ini ${HOME}/.config/polybar/modules.ini
+	ln -vsf ${PWD}/tools/polybar/user_modules.ini ${HOME}/.config/polybar/user_modules.ini
+	ln -vsf ${PWD}/tools/polybar/colors.ini ${HOME}/.config/polybar/colors.ini
+	ln -vsf ${PWD}/tools/polybar/scripts ${HOME}/.config/polybar/scripts
 
 rofi: ## Rofi config, needs theme set
 	mkdir -p ${HOME}/.config/rofi
