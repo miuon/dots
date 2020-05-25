@@ -28,7 +28,7 @@ polybar: ## Polybar config, themed from Xresources
 
 rofi: ## Rofi config, needs theme set
 	mkdir -p ${HOME}/.config/rofi
-	ln -vsf ${PWD}/tools/rofi/.config/rofi/config.rasi ${HOME}/.config/rofi/config.rasi
+	ln -vsf ${PWD}/tools/rofi/config.rasi ${HOME}/.config/rofi/config.rasi
 
 dunst: ## Dunst config, needs theme set
 	mkdir -p ${HOME}/.config/dunst
