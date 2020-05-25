@@ -4,6 +4,6 @@ configuration {
 	font: "mononoki Nerd Font 18";
 	show-icons: true;
 	drun-icon-theme: "Paper";
-	theme: "dracula";
+	theme: "untitled";
 	terminal: "urxvt";
 }

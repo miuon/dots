@@ -13,7 +13,7 @@ These are my graphical dotfiles, cli dotfiles are at [miuon/dots](https://github
 Coming later
 
 ## Make layout
-This repo is meant to be deployed using [GNU Make](https://gnu.org/software/make). For example, cd into the root and run `make deploy-i3` to deploy my i3 config. Themes are within the themes directory, and each have their own make rule. For example, deploy the "oheight" theme using `make oheight`.
+This repo is meant to be deployed using [GNU Make](https://gnu.org/software/make). For example, cd into the root and run `make i3` to deploy my i3 config. Themes are within the themes directory, and each have their own make rule. For example, deploy the "oheight" theme using `make oheight`.
 
 | Package Name | Description | Dependencies |
 | --- | --- | --- |
@@ -21,7 +21,7 @@ This repo is meant to be deployed using [GNU Make](https://gnu.org/software/make
 | `i3` | My i3 config, for i3-gaps-rounded (resloved/i3). | `resloved/i3` `rofi` `nerd-fonts-complete` |
 
 ## Color directories
-In theory you can use these to deploy different color schemes using stow, and the other config files will all source them correctly. In practice, we'll see how that goes. If you've deployed one color scheme and want to try another you may have to run it first, get the overwrite error, and then go in and delete some of the stuff that's there already.
+In theory you can use these to deploy different color schemes using make, and the other config files will all source them correctly. In practice, we'll see how that goes. If you've deployed one color scheme and want to try another you may have to run it first, get the overwrite error, and then go in and delete some of the stuff that's there already.
 
 | Colorscheme | Screenshot (to be added later) | Description | Configures |
 | --- | --- | --- | --- |
