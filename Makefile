@@ -14,12 +14,9 @@ oheight: ## New work desktop colors (oc)
 	ln -vsf ${PWD}/themes/oheight/dracula.rasi ${HOME}/.config/rofi/dracula.rasi
 	xrdb ${HOME}/.Xresources
 
-deploy-cwm: ## CWM window manager config
-	ln -vsf ${PWD}/cwm/.cwmrc ${HOME}/.cwmrc
-
 deploy-i3: ## Basic i3 config
 	mkdir -p ${HOME}/.config/i3
-	ln -vsf ${PWD}/i3/.config/i3/config ${HOME}/.config/i3/config
+	ln -vsf ${PWD}/i3/config ${HOME}/.config/i3/config
 
 deploy-polybar: ## Polybar config, themed from Xresources
 	mkdir -p ${HOME}/.config/polybar
@@ -32,6 +29,10 @@ deploy-polybar: ## Polybar config, themed from Xresources
 deploy-rofi: ## Rofi config, needs theme set
 	mkdir -p ${HOME}/.config/rofi
 	ln -vsf ${PWD}/rofi/.config/rofi/config.rasi ${HOME}/.config/rofi/config.rasi
+
+deploy-dunst: ## Dunst config, needs theme set
+	mkdir -p ${HOME}/.config/dunst
+	ln -vsf ${PWD}/dunst/dunstrc ${HOME}/.config/dunst/dunstrc
 
 deploy-x: ## Basic X configuration
 	ln -vsf ${PWD}/x/.xserverrc ${HOME}/.xserverrc

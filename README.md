@@ -2,9 +2,9 @@
 These are my graphical dotfiles, cli dotfiles are at [miuon/dots](https://github.com/miuon/dots). To set up a graphical system I use both repos. This also contains color schemes, within the themes directory. These should sit alongside the main dotfiles. No guarantees that they'll be kept completely up to date with the main files.
 
 ## System details
-+ **OS**: Arch, maybe OpenBSD in the future
++ **OS**: Arch
 + **DE**: [xinit](https://wiki.archlinux.com/index.php/xinit), use it for most autostart as well
-+ **WM**: [resloved/i3](https://github.com/resloved/i3)
++ **WM**: [airblader/i3](https://github.com/airblader/i3)
 + **Extras**: [rofi](https://github.com/davatorium/rofi), [polybar](https://github.com/polybar/polybar), [dunst](https://github.com/dunst-project/dunst)
 + **Terminal**: [rxvt-unicode-pixbuf](https://aur.archlinux.org/packages/rxvt-unicode-pixbuf)
 + **Browser**: [qutebrowser](https://github.com/qutebrowser/qutebrowser)
@@ -13,7 +13,7 @@ These are my graphical dotfiles, cli dotfiles are at [miuon/dots](https://github
 Coming later
 
 ## Make layout
-This repo is meant to be deployed using [GNU Make](https://gnu.org/software/make). For example, cd into the root and run `make i3` to deploy my i3 config. Themes are within the themes directory, and each have their own make rule. For example, deploy the "oheight" theme using `make oheight`.
+This repo is meant to be deployed using [GNU Make](https://gnu.org/software/make). For example, cd into the root and run `make deploy-i3` to deploy my i3 config. Themes are within the themes directory, and each have their own make rule. For example, deploy the "oheight" theme using `make oheight`.
 
 | Package Name | Description | Dependencies |
 | --- | --- | --- |
