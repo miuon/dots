@@ -16,7 +16,9 @@ oheight: ## New work desktop colors (oc)
 
 i3: ## Basic i3 config
 	mkdir -p ${HOME}/.config/i3
-	ln -vsf ${PWD}/wm/i3/config ${HOME}/.config/i3/config
+	ln -vsr ${PWD}/wm/i3/i3confgen ${HOME}/bin
+	chmod u+x ${HOME}/bin/i3confgen
+	ln -vsf ${PWD}/wm/i3/*.i3config ${HOME}/.config/i3/
 
 polybar: ## Polybar config, themed from Xresources
 	mkdir -p ${HOME}/.config/polybar

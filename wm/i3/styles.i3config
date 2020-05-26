@@ -1,0 +1,18 @@
+# =========================================================
+#                     STYLES.I3CONFIG
+# =========================================================
+
+# Colors
+client.focused          #c6ff00 #c6ff00 #000000 #dddddd
+client.focused_inactive #333333 #333333 #c6ff00 #ffffff
+client.unfocused        #333333 #333333 #888888 #292d2e
+client.urgent           #2f343a #900000 #ffffff #900000
+
+for_window [class="^.*"] border pixel 0
+
+# font for titles
+font pango:mononoki 12
+
+gaps inner 20
+gaps outer 20
+smart_gaps on

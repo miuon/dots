@@ -1,0 +1,76 @@
+# =========================================================
+#                       HOST.I3CONFIG
+# =========================================================
+
+set $mod Mod4
+set $alt Mod1
+
+set $lmon DP-2
+set $rmon DP-0
+
+set $ws1 "1: www"
+set $ws2 "2: www"
+set $ws3 "3: steam"
+set $ws4 "4: discord"
+set $ws5 "5: code"
+set $ws6 "6: docs"
+set $ws7 "7: seven"
+set $ws8 "8: music"
+set $ws9 "9: nine"
+set $ws10 "10: ten"
+
+workspace $ws1 output $lmon
+workspace $ws2 output $rmon
+workspace $ws3 output $lmon
+workspace $ws4 output $rmon
+workspace $ws5 output $lmon
+workspace $ws6 output $rmon
+workspace $ws7 output $lmon
+workspace $ws8 output $rmon
+workspace $ws9 output $lmon
+workspace $ws10 output $rmon
+
+# scratchpad pavu
+bindsym $alt+m scratchpad show
+bindsym $alt+Shift+m move scratchpad
+for_window [class="Pavucontrol"] floating enable;
+for_window [class="Pavucontrol"] move scratchpad;
+exec --no-startup-id pavucontrol
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+# alternate
+bindsym $alt+u workspace $ws1
+bindsym $alt+o workspace $ws2
+bindsym $alt+i workspace $ws3
+bindsym $alt+p workspace $ws4
+bindsym $alt+comma workspace $ws5
+bindsym $alt+period workspace $ws6
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+# alternate
+bindsym $alt+Shift+u move container to workspace $ws1
+bindsym $alt+Shift+o move container to workspace $ws2
+bindsym $alt+Shift+i move container to workspace $ws3
+bindsym $alt+Shift+p move container to workspace $ws4
+bindsym $alt+Shift+comma move container to workspace $ws5
+bindsym $alt+Shift+period move container to workspace $ws6

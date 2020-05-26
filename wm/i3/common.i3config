@@ -1,0 +1,95 @@
+# =========================================================
+#                     COMMON.I3CONFIG
+# =========================================================
+
+set $mod Mod4
+set $alt Mod1
+
+# restart and reload ======================================
+
+# reload the configuration file
+bindsym $mod+Shift+c exec "~/bin/i3confgen && i3-msg reload"
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r exec "~/bin/i3confgen && i3-msg restart"
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-msg exit"
+# suspend
+bindsym $mod+Shift+s exec "systemctl suspend"
+
+# window manipulation =====================================
+
+# change focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split direction
+bindsym $mod+semicolon split h
+bindsym $mod+v split v
+
+# kill focused window
+bindsym $mod+q kill
+
+# more window manip
+bindsym $mod+f fullscreen
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+
+# mouse
+focus_follows_mouse no
+floating_modifier $mod
+
+# app shortcuts ===========================================
+
+# start a terminal
+bindsym $mod+Return exec urxvt
+
+#rofis
+bindsym $mod+d exec --no-startup-id "rofi -show drun"
+bindsym $mod+Shift+d exec --no-startup-id "rofi -show run"
+
+# resize mode =============================================
+
+mode "resize" {
+  bindsym h resize shrink width 10 px or 10 ppt
+  bindsym j resize grow height 10 px or 10 ppt
+  bindsym k resize shrink height 10 px or 10 ppt
+  bindsym l resize grow width 10 px or 10 ppt
+
+  bindsym Left resize shrink width 10 px or 10 ppt
+  bindsym Down resize grow height 10 px or 10 ppt
+  bindsym Up resize shrink height 10 px or 10 ppt
+  bindsym Right resize grow width 10 px or 10 ppt
+  bindsym Return mode "default"
+  bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
+
+# run on startup ==========================================
+exec_always --no-startup-id nitrogen --restore
+exec_always --no-startup-id picom --config ~/.config/picom.conf
+exec_always --no-startup-id ~/bin/polybar-launch
+exec_always --no-startup-id "pkill dunst; dunst"
+exec mopidy
