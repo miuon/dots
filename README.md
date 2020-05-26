@@ -14,10 +14,13 @@ Coming later
 ## Build rules
 This repo is meant to be deployed using [GNU Make](https://gnu.org/software/make). For example, cd into the root and run `make i3` to deploy my i3 config.
 
-| Package Name | Description | Dependencies |
+| Rule Name | Description | Dependencies |
 | --- | --- | --- |
-| `x` | General xorg config, sets up launch through xinit and configures xrdb variables. Configures some amount of rxvt stuff as well. | `neovim` `vim-plug` `pynvim` |
-| `i3` | My i3 config, for i3-gaps-rounded (resloved/i3). | `resloved/i3` `rofi` `nerd-fonts-complete` |
+| `i3` | My i3 config, for i3-gaps (airblader/i3). | `airblader/i3` `nerd-fonts-complete` `polybar` `rofi` `dunst` |
+| `x` | General xorg config, sets up launch through xinit and configures xrdb variables. Configures some amount of rxvt stuff as well. | `xrdb` `xinit` |
+| `polybar` | Config for polybar. Uses modules for my setup but can be reconfigured. | `polybar` |
+| `rofi` | Config for rofi. Multiple rofis, multiple themes. | `rofi` `xrdb` `paper-icons` |
+| `dunst` | Config for dunst notifications. | `dunst` |
 
 ## Config design
 
