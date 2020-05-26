@@ -3,7 +3,6 @@ These are my graphical dotfiles, cli dotfiles are at [miuon/dots](https://github
 
 ## System details
 + **OS**: Arch
-+ **DE**: [xinit](https://wiki.archlinux.com/index.php/xinit), use it for most autostart as well
 + **WM**: [airblader/i3](https://github.com/airblader/i3)
 + **Extras**: [rofi](https://github.com/davatorium/rofi), [polybar](https://github.com/polybar/polybar), [dunst](https://github.com/dunst-project/dunst)
 + **Terminal**: [rxvt-unicode-pixbuf](https://aur.archlinux.org/packages/rxvt-unicode-pixbuf)
