@@ -36,8 +36,9 @@ dunst: ## Dunst config, needs theme set
 	mkdir -p ${HOME}/.config/dunst
 	ln -vsf ${PWD}/tools/dunst/dunstrc ${HOME}/.config/dunst/dunstrc
 
-deploy-x: ## Basic X configuration
+x: ## Basic X configuration
 	ln -vsf ${PWD}/wm/x/.xserverrc ${HOME}/.xserverrc
 	ln -vsf ${PWD}/wm/x/.xinitrc ${HOME}/.xinitrc
+	ln -vsf ${PWD}/wm/x/.xprofile ${HOME}/.xprofile
 	ln -vsf ${PWD}/wm/x/.Xresources ${HOME}/.Xresources
 	xrdb ${HOME}/.Xresources
