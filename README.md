@@ -22,4 +22,4 @@ This repo is meant to be deployed using [GNU Make](https://gnu.org/software/make
 ## Config design
 
 ### i3
-Contained within `wm/i3`. TODO: Split up into several files. Runs a concat script on start and on configure.
+Contained within `wm/i3`. Split up into several files which can be overridden. Runs a config generator script on reconfigure and restart. If `~/bin` exists and is on the path, the script can be run manually as `i3confgen`.
