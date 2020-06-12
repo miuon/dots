@@ -1,9 +1,3 @@
-lovelace: ## Old work colors
-	ln -vsf ${PWD}/colors-old/lovelace/.xcolors ${HOME}/.xcolors
-	mkdir -p ${HOME}/.config/rofi
-	ln -vsf ${PWD}/colors-old/lovelace/dracula.rasi ${HOME}/.config/rofi/dracula.rasi
-	xrdb ${HOME}/.Xresources
-
 night: ## Current home desktop colors
 	ln -vsf ${PWD}/colors-old/night/.xcolors ${HOME}/.xcolors
 	xrdb ${HOME}/.Xresources
@@ -24,9 +18,3 @@ dunst: ## Dunst config, needs theme set
 	mkdir -p ${HOME}/.config/dunst
 	ln -vsf ${PWD}/tools/dunst/dunstrc ${HOME}/.config/dunst/dunstrc
 
-x: ## Basic X configuration
-	ln -vsf ${PWD}/wm/x/.xserverrc ${HOME}/.xserverrc
-	ln -vsf ${PWD}/wm/x/.xinitrc ${HOME}/.xinitrc
-	ln -vsf ${PWD}/wm/x/.xprofile ${HOME}/.xprofile
-	ln -vsf ${PWD}/wm/x/.Xresources ${HOME}/.Xresources
-	xrdb ${HOME}/.Xresources
