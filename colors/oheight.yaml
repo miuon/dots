@@ -1,0 +1,39 @@
+# oheight
+# special
+fg:      "#fdfdfd"
+bg:      "#202020"
+active:  "#f084ee"
+urgent:  "#c4d683"
+altbg:   "#323232"
+
+# black
+color0:       "#323232"
+color8:       "#414458"
+
+# red
+color1:       "#db53d9"
+color9:       "#f084ee"
+
+# green
+color2:       "#17c484"
+color10:      "#56e7b1"
+
+# yellow
+.color3:      "#bcde46"
+.color11:     "#c4d683"
+
+# blue
+color4:       "#654ada"
+color12:      "#785fe1"
+
+# magenta
+color5:       "#994ada"
+color13:      "#b775ee"
+
+# cyan
+color6:       "#0ebdc1"
+color14:      "#43dbde"
+
+# white
+color7:       "#fdfdfd"
+color15:      "#bebec1"

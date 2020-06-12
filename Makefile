@@ -1,24 +1,12 @@
 lovelace: ## Old work colors
-	ln -vsf ${PWD}/colors/lovelace/.xcolors ${HOME}/.xcolors
+	ln -vsf ${PWD}/colors-old/lovelace/.xcolors ${HOME}/.xcolors
 	mkdir -p ${HOME}/.config/rofi
-	ln -vsf ${PWD}/colors/lovelace/dracula.rasi ${HOME}/.config/rofi/dracula.rasi
+	ln -vsf ${PWD}/colors-old/lovelace/dracula.rasi ${HOME}/.config/rofi/dracula.rasi
 	xrdb ${HOME}/.Xresources
 
 night: ## Current home desktop colors
-	ln -vsf ${PWD}/colors/night/.xcolors ${HOME}/.xcolors
+	ln -vsf ${PWD}/colors-old/night/.xcolors ${HOME}/.xcolors
 	xrdb ${HOME}/.Xresources
-
-oheight: ## New work desktop colors (oc)
-	ln -vsf ${PWD}/colors/oheight/.xcolors ${HOME}/.xcolors
-	mkdir -p ${HOME}/.config/rofi
-	ln -vsf ${PWD}/colors/oheight/dracula.rasi ${HOME}/.config/rofi/dracula.rasi
-	xrdb ${HOME}/.Xresources
-
-i3: ## Basic i3 config
-	mkdir -p ${HOME}/.config/i3
-	ln -vsr ${PWD}/wm/i3/i3confgen ${HOME}/bin
-	chmod u+x ${HOME}/bin/i3confgen
-	ln -vsf ${PWD}/wm/i3/*.i3config ${HOME}/.config/i3/
 
 polybar: ## Polybar config, themed from Xresources
 	mkdir -p ${HOME}/.config/polybar
