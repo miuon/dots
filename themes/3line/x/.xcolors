@@ -1,4 +1,5 @@
 *background:	{{ bg }}
+*borderColor:   {{ bg }}
 *foreground:	{{ fg }}
 *cursorColor:	{{ active }}
 *accentColor:   {{ active }}
