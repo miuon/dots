@@ -30,7 +30,7 @@
     frame_width = 0
 
     # Defines color of the frame around the notification window.
-    frame_color = "#aaaaaa"
+    frame_color = "{{ altbg }}"
 
     # Define a color for the separator.
     # possible values are:
@@ -191,18 +191,18 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    background = "#282A36"
-    foreground = "#5ADECD"
+    background = "{{ altbg }}"
+    foreground = "{{ color2 }}"
     timeout = 20
 
 [urgency_normal]
-    background = "#282A36"
-    foreground = "#FDFDFD"
+    background = "{{ altbg }}"
+    foreground = "{{ fg }}"
     timeout = 20
 
 [urgency_critical]
-    background = "#282A36"
-    foreground = "#f37f97"
+    background = "{{ altbg }}"
+    foreground = "{{ color1 }}"
     timeout = 0
 
 # vim: ft=cfg
