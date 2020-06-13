@@ -90,7 +90,7 @@ bindsym $mod+r mode "resize"
 # run on startup ==========================================
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id picom --config ~/.config/picom.conf
-exec_always --no-startup-id ~/bin/polybar-launch
+exec --no-startup-id ~/bin/polybar-launch
 exec_always --no-startup-id "pkill dunst; dunst"
 exec_always --no-startup-id lxpolkit
 exec_always start-pulseaudio-x11

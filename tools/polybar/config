@@ -1,5 +1,0 @@
-include-file = ~/.config/polybar/modules.ini
-include-file = ~/.config/polybar/user_modules.ini
-include-file = ~/.config/polybar/styles/threeline.ini
-include-file = ~/.config/polybar/styles/untitled.ini
-include-file = ~/.config/polybar/bars.ini
