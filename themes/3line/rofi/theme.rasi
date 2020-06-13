@@ -1,0 +1,69 @@
+configuration {
+  font: "Space Mono 18";
+  show-icons:         true;
+  icon-theme:         "Qogir";
+  cycle:              true;
+  hide-scrollbar:     true;
+  columns: 2;
+}
+
+* {
+  /* colors */
+  background: {{ bg }};
+  foreground: {{ fg }};
+  accent: {{ active }};
+  altBackground: {{ altbg }};
+
+  background-color: @background;
+  border-color: @altBackground;
+  text-color: @foreground;
+  separator-color: @accent;
+  scrollbar-color: @background;
+  scrollbar-handle: @accent;
+
+  normal-background:           @background;
+  normal-foreground:           @foreground;
+  alternate-normal-background: @altBackground;
+  alternate-normal-foreground: @foreground;
+  selected-normal-background:  @accent;
+  selected-normal-foreground:  @foreground;
+  spacing: 0;
+  width: 1024px;
+}
+
+inputbar {
+  border: 0 0 1px 0;
+  children: [prompt,entry];
+}
+
+prompt {
+  padding: 16px;
+  border: 0 1px 0 0;
+}
+
+textbox {
+  background-color: #2e343f;
+  border: 0 0 1px 0;
+  border-color: #282C33;
+  padding: 8px 16px;
+}
+
+entry {
+  padding: 16px;
+}
+
+listview {
+  cycle: false;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+element {
+  border: 0 0 1px 0;
+  padding: 16px;
+}
+
+element selected {
+  background-color: #2e343f;
+}
+/* vim:ft=css
