@@ -8,9 +8,9 @@ set $alt Mod1
 # restart and reload ======================================
 
 # reload the configuration file
-bindsym $mod+Shift+c exec "~/bin/i3confgen && i3-msg reload"
+bindsym $mod+Shift+c exec "~/.local/bin/modot --quick"
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r exec "~/bin/i3confgen && i3-msg restart"
+bindsym $mod+Shift+r exec "~/.local/bin/modot --full"
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-msg exit"
 # suspend
@@ -69,6 +69,8 @@ bindsym $mod+Return exec urxvt
 #rofis
 bindsym $mod+d exec --no-startup-id "rofi -show drun"
 bindsym $mod+Shift+d exec --no-startup-id "rofi -show run"
+bindsym $mod+c exec --no-startup-id "~/.config/rofi/scripts/modot-color-rofi.sh"
+bindsym $mod+t exec --no-startup-id "~/.config/rofi/scripts/modot-theme-rofi.sh"
 
 # resize mode =============================================
 
