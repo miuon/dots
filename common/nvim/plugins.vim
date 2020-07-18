@@ -9,6 +9,9 @@ Plug 'mhinz/vim-signify'
 Plug 'vim-syntastic/syntastic'
 Plug 'junegunn/vim-peekaboo'
 
+" VCS
+Plug 'tpope/vim-fugitive'
+
 " Deoplete
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'ervandew/supertab'
@@ -17,6 +20,7 @@ Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'eagletmt/neco-ghc'
 
 " Language support/formatting
+Plug 'vimwiki/vimwiki'
 Plug 'mhartington/nvim-typescript'
 Plug 'tpope/vim-markdown'
 Plug 'junegunn/vim-easy-align'
@@ -34,3 +38,8 @@ call plug#end()
 
 " Set options
 let g:airline_theme='base16'
+
+let org_wiki = {}
+let org_wiki.path = '~/notes/org'
+let org_wiki.name = 'Org Wiki'
+let g:vimwiki_list = [org_wiki]
