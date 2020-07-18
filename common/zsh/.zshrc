@@ -1,6 +1,9 @@
 source <(antibody init)
 antibody bundle < ~/.zsh_plugins
 
+autoload -U compinit
+compinit
+
 # Prompt
 COMPLETION_WAITING_DOTS="true"
 SPACESHIP_VI_MODE_COLOR="green"
