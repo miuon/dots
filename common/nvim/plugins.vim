@@ -39,7 +39,13 @@ call plug#end()
 " Set options
 let g:airline_theme='base16'
 
+let net_wiki = {}
+let net_wiki.path = '~/notes/net'
+let net_wiki.name = 'Net Wiki'
+let edu_wiki = {}
+let edu_wiki.path = '~/notes/edu'
+let edu_wiki.name = 'Edu Wiki'
 let org_wiki = {}
 let org_wiki.path = '~/notes/org'
 let org_wiki.name = 'Org Wiki'
-let g:vimwiki_list = [org_wiki]
+let g:vimwiki_list = [net_wiki, org_wiki]

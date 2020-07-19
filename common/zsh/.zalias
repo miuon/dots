@@ -13,3 +13,7 @@ alias nvim="nvim -p"
 alias ro="nvim -R"
 alias dril="drill"
 alias dunstreload="killall dunst; notify-send 'Reloaded Dunst' 'Dunst has been reloaded.'"
+
+alias net="nvim ~/notes/net/index.wiki"
+alias org="nvim ~/notes/org/index.wiki"
+alias edu="nvim ~/notes/edu/index.wiki"
