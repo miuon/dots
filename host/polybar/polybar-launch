@@ -1,6 +1,0 @@
-#!/usr/bin/env sh
-
-pkill polybar
-polybar -r left &
-polybar -r right &
-polybar -r bed &
