@@ -1,0 +1,25 @@
+directories:
+        - '~/.urxvt'
+        - '~/.urxvt/ext'
+links:
+        - src: Xresources
+          tgt: '~/.Xresources'
+        - src: xinitrc
+          tgt: '~/.xinitrc'
+        - src: xserverrc
+          tgt: '~/.xserverrc'
+        - src: xprofile
+          tgt: '~/.xprofile'
+        - from: host
+          src: xhost
+          tgt: '~/.xhost'
+        - from: theme
+          src: xcolors
+          template: True
+          tgt: '~/.xcolors'
+        - src: config-print
+          tgt: '~/.urxvt/ext/config-print'
+        - src: config-reload
+          tgt: '~/.urxvt/ext/config-reload'
+reload: 'xrdb ~/.Xresources && pkill --signal 1 urxvt'
+restart: 'xrdb ~/.Xresources && pkill --signal 1 urxvt'

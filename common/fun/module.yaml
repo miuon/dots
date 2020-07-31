@@ -1,0 +1,12 @@
+directories:
+        - '~/bin'
+links:
+        - src: bonsai
+          executable: True
+          tgt: ~/bin/bonsai
+        - src: bonsailoop
+          executable: True
+          tgt: ~/bin/bonsailoop
+        - src: colorscript # TODO: links glob?
+          tgt: ~/bin/colorscript
+

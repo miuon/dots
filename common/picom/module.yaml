@@ -1,0 +1,7 @@
+directories:
+        - ~/.config
+links:
+        - from: theme
+          src: picom.conf
+          template: True
+          tgt: ~/.config/picom.conf

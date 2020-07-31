@@ -1,0 +1,9 @@
+directories:
+        - '~/bin'
+links:
+        - src: zshrc
+          tgt: '~/.zshrc'
+        - src: zalias
+          tgt: '~/.zalias'
+        - src: zsh_plugins
+          tgt: '~/.zsh_plugins'

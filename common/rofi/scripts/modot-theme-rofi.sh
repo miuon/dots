@@ -1,5 +1,5 @@
 #!/bin/bash
 
-THEME=$( ~/.local/bin/modot --list-themes | rofi -dmenu -p "Theme:")
+THEME=$( ~/.local/bin/modot theme list | rofi -dmenu -p "Theme:")
 
-~/.local/bin/modot -t $THEME
+~/.local/bin/modot theme set $THEME

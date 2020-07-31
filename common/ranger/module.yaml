@@ -1,0 +1,7 @@
+directories:
+        - '~/.config/ranger'
+links:
+        - src: rc.conf
+          tgt: '~/.config/ranger/rc.conf'
+        - src: plugins
+          tgt: '~/.config/ranger/plugins'

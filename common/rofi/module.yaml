@@ -1,0 +1,11 @@
+directories:
+        - '~/.config/rofi'
+links:
+        - src: config.rasi
+          tgt: '~/.config/rofi/config.rasi'
+        - from: theme
+          src: theme.rasi
+          template: True
+          tgt: '~/.config/rofi/theme.rasi'
+        - src: scripts
+          tgt: '~/.config/rofi/scripts'

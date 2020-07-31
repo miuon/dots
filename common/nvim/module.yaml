@@ -1,0 +1,16 @@
+directories:
+        - '~/.config/nvim'
+        - '~/.local/share/nvim/site/autoload'
+links:
+        - src: init.vim
+          tgt: '~/.config/nvim/init.vim'
+        - src: keymap.vim
+          tgt: '~/.config/nvim/keymap.vim'
+        - src: plugins.vim
+          tgt: '~/.config/nvim/plugins.vim'
+        - src: deoplete.vim
+          tgt: '~/.config/nvim/deoplete.vim'
+        - src: autoload/plug.vim
+          tgt: '~/.local/share/nvim/site/autoload/plug.vim'
+reload: 'nvim +PlugUpdate +qall'
+restart: 'nvim +PlugUpdate +qall'
