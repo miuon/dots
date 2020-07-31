@@ -7,3 +7,6 @@ links:
           tgt: '~/.zalias'
         - src: zsh_plugins
           tgt: '~/.zsh_plugins'
+        - from: host
+          src: zhost
+          tgt: '~/.zhost'
