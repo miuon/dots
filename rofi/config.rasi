@@ -1,8 +1,7 @@
 configuration {
 	modi: "drun,ssh,window,run";
-	font: "mononoki Nerd Font 18";
 	show-icons: true;
 	drun-icon-theme: "Paper";
 	theme: "theme";
-	terminal: "urxvt";
+	terminal: "alacritty";
 }
