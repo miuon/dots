@@ -1,0 +1,8 @@
+term_padding: 10
+term_font: SpaceMono Nerd Font Mono
+term_font_size: 8.75
+
+notif_font: SpaceMono Nerd Font Mono
+
+inactive_dim: 0.2
+corner_radius: 20

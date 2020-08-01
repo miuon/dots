@@ -1,39 +1,39 @@
 # oheight
 # special
-fg:      "#fdfdfd"
-bg:      "#202020"
-active:  "#f084ee"
-urgent:  "#c4d683"
-altbg:   "#323232"
+fg:		"#fdfdfd"
+bg:		"#202020"
+active:		"#f084ee"
+urgent:		"#c4d683"
+altbg:		"#323232"
 
-# black
-color0:       "#323232"
-color8:       "#414458"
+# black (0, 8)
+black:		"#323232"
+black_alt:	"#414458"
 
-# red
-color1:       "#db53d9"
-color9:       "#f084ee"
+# red (1, 9)
+red:		"#db53d9"
+red_alt:	"#f084ee"
 
-# green
-color2:       "#17c484"
-color10:      "#56e7b1"
+# green (2, 10)
+green:		"#17c484"
+green_alt:	"#56e7b1"
 
-# yellow
-color3:      "#bcde46"
-color11:     "#c4d683"
+# yellow (3, 11)
+yellow:		"#bcde46"
+yellow_alt:	"#c4d683"
 
-# blue
-color4:       "#654ada"
-color12:      "#785fe1"
+# blue (4, 12)
+blue:		"#654ada"
+blue_alt:	"#785fe1"
 
-# magenta
-color5:       "#994ada"
-color13:      "#b775ee"
+# magenta (5, 13)
+magenta:	"#994ada"
+magenta_alt:	"#b775ee"
 
-# cyan
-color6:       "#0ebdc1"
-color14:      "#43dbde"
+# cyan (6, 14)
+cyan:		"#0ebdc1"
+cyan_alt:	"#43dbde"
 
 # white
-color7:       "#fdfdfd"
-color15:      "#bebec1"
+white:		"#fdfdfd"
+white_alt:	"#bebec1"

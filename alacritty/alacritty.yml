@@ -1,8 +1,8 @@
 window:
   dynamic_padding: true
   padding:
-    x: 10
-    y: 10
+    x: {{ term_padding }}
+    y: {{ term_padding }}
 
   # Window title
   #title: Alacritty
@@ -18,25 +18,25 @@ scrolling:
   history: 10000
 
 font:
-  size: 8.75
+  size: {{ term_font_size }}
   offset:
     x: 0
     y: -1
   normal:
-    family: SpaceMono Nerd Font Mono
+    family: {{ term_font }}
 
 colors:
   primary:
-    background: '#202020'
-    foreground: '#fdfdfd'
+    background: '{{ bg }}'
+    foreground: '{{ fg }}'
 
   # Cursor colors
   #
   # Colors which should be used to draw the terminal cursor. If these are unset,
   # the cursor color will be the inverse of the cell color.
   cursor:
-    text: '#202020'
-    cursor: '#f084ee'
+    text: '{{ bg }}'
+    cursor: '{{ active }}'
 
   # Selection colors
   #
@@ -48,24 +48,24 @@ colors:
   #  background: '#404040'
 
   normal:
-    black:   '#414458'
-    red:     '#f084ee'
-    green:   '#56e7b1'
-    yellow:  '#c4d683'
-    blue:    '#785fe1'
-    magenta: '#b775ee'
-    cyan:    '#43dbde'
-    white:   '#bebec1'
+    black:	'{{ black_alt }}'
+    red:	'{{ red_alt }}'
+    green:	'{{ green_alt }}'
+    yellow:	'{{ yellow_alt }}'
+    blue:	'{{ blue_alt }}'
+    magenta:	'{{ magenta_alt }}'
+    cyan:	'{{ cyan_alt }}'
+    white:	'{{ white_alt }}'
 
   bright:
-    black:   '#323232'
-    red:     '#db53d9'
-    green:   '#17c484'
-    yellow:  '#bcde46'
-    blue:    '#654ada'
-    magenta: '#994ada'
-    cyan:    '#0ebdc1'
-    white:   '#fdfdfd'
+    black:	'{{ black }}'
+    red:	'{{ red }}'
+    green:	'{{ green }}'
+    yellow:	'{{ yellow }}'
+    blue:	'{{ blue }}'
+    magenta:	'{{ magenta }}'
+    cyan:	'{{ cyan }}'
+    white:	'{{ white }}'
 
 # Send ESC (\x1b) before characters when alt is pressed.
 alt_send_esc: false

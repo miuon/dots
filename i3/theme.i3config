@@ -1,5 +1,5 @@
 # =========================================================
-#                     STYLES.I3CONFIG
+#                     THEME.I3CONFIG
 # =========================================================
 
 # Colors
@@ -8,13 +8,13 @@ client.focused_inactive {{ altbg }} {{ altbg }} {{ active }} {{ fg }}
 client.unfocused        {{ altbg }} {{ altbg }} {{ fg }} {{ altbg }}
 client.urgent           {{ altbg }} {{ altbg }} {{ urgent }} {{ altbg  }}
 
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel {{ border_size }}
 
 # font for titles
-font pango:mononoki 12
+font pango:{{ title_font }} {{ title_font_size }}
 
-gaps inner 20
-gaps outer 20
+gaps inner {{ gaps_inner }}
+gaps outer {{ gaps_outer }}
 smart_gaps on
 
 exec_always --no-startup-id picom --config ~/.config/picom.conf
