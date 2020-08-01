@@ -4,5 +4,3 @@ cat:
         theme.ini: ~/.config/polybar/theme.ini
         modules.ini: ~/.config/polybar/modules.ini
         user_modules.ini: ~/.config/polybar/user_modules.ini
-catexec:
-        polybar-launch: ~/bin/polybar-launch
