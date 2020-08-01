@@ -1,17 +1,4 @@
-directories:
-        - '~/.urxvt'
-        - '~/.urxvt/ext'
-links:
-        - src: xinitrc
-          tgt: '~/.xinitrc'
-        - src: xserverrc
-          tgt: '~/.xserverrc'
-        - src: xprofile
-          tgt: '~/.xprofile'
-        - from: host
-          src: xhost
-          tgt: '~/.xhost'
-        - from: theme
-          src: xcolors
-          template: True
-          tgt: '~/.xcolors'
+cat:
+        xinitrc: ~/.xinitrc
+        xserverrc: ~/.xserverrc
+        xprofile: ~/.xprofile

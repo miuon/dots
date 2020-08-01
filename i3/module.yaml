@@ -1,20 +1,3 @@
-directories:
-        - '~/.config/i3'
-links:
-        - src: 'common.i3config'
-          tgt: '~/.config/i3/common.i3config'
-        - from: 'host'
-          src: 'host.i3config'
-          tgt: '~/.config/i3/host.i3config'
-        - from: 'theme'
-          src: 'theme.i3config'
-          template: True
-          tgt: '~/.config/i3/theme.i3config'
-concats:
-        - src:
-                - '~/.config/i3/common.i3config'
-                - '~/.config/i3/host.i3config'
-                - '~/.config/i3/theme.i3config'
-          out: '~/.config/i3/config'
-reload: 'i3-msg reload'
-restart: 'i3-msg restart'
+cat:
+        common.i3config: ~/.config/i3/config
+        theme.i3config: ~/.config/i3/theme.i3config

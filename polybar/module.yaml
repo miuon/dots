@@ -1,29 +1,8 @@
-directories:
-        - '~/bin'
-        - '~/.config/polybar'
-links:
-        - from: host
-          src: polybar-launch
-          executable: True
-          tgt: ~/bin/polybar-launch
-        - src: config
-          tgt: ~/.config/polybar/config
-        - src: scripts
-          tgt: ~/.config/polybar/scripts
-        - from: host
-          src: host.ini
-          tgt: ~/.config/polybar/host.ini
-        - from: theme
-          src: theme.ini
-          template: True
-          tgt: ~/.config/polybar/theme.ini
-        - from: theme
-          src: modules.ini
-          template: True
-          tgt: ~/.config/polybar/modules.ini
-        - from: theme
-          src: user_modules.ini
-          template: True
-          tgt: ~/.config/polybar/user_modules.ini
-reload: 'touch -m ~/.config/polybar/config'
-restart: '~/bin/polybar-launch >/dev/null 2>/dev/null'
+cat:
+        config: ~/.config/polybar/config
+        scripts/*: ~/.config/polybar/scripts/
+        theme.ini: ~/.config/polybar/theme.ini
+        modules.ini: ~/.config/polybar/modules.ini
+        user_modules.ini: ~/.config/polybar/user_modules.ini
+catexec:
+        polybar-launch: ~/bin/polybar-launch

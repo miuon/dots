@@ -1,12 +1,4 @@
-directories:
-        - '~/bin'
-links:
-        - src: zshrc
-          tgt: '~/.zshrc'
-        - src: zalias
-          tgt: '~/.zalias'
-        - src: zsh_plugins
-          tgt: '~/.zsh_plugins'
-        - from: host
-          src: zhost
-          tgt: '~/.zhost'
+cat:
+        zshrc: '~/.zshrc'
+        zalias: '~/.zalias'
+        zsh_plugins: '~/.zsh_plugins'
