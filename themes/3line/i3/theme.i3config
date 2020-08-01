@@ -16,3 +16,5 @@ font pango:mononoki 12
 gaps inner 20
 gaps outer 20
 smart_gaps on
+
+exec_always --no-startup-id picom --config ~/.config/picom.conf
