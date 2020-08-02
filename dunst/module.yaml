@@ -1,2 +1,2 @@
-cat:
-        dunstrc: ~/.config/dunst/dunstrc
+dunstrc:
+        out: ~/.config/dunst/dunstrc

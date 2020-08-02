@@ -1,4 +1,6 @@
-cat:
-        zshrc: '~/.zshrc'
-        zalias: '~/.zalias'
-        zsh_plugins: '~/.zsh_plugins'
+zshrc:
+        out: ~/.zshrc
+zalias:
+        out: ~/.zalias
+zsh_plugins:
+        out: ~/.zsh_plugins

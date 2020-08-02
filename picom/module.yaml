@@ -1,2 +1,2 @@
-cat:
-          picom.conf: ~/.config/picom.conf
+picom.conf:
+        out: ~/.config/picom.conf

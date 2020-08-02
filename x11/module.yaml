@@ -1,4 +1,6 @@
-cat:
-        xinitrc: ~/.xinitrc
-        xserverrc: ~/.xserverrc
-        xprofile: ~/.xprofile
+xinitrc:
+        out: ~/.xinitrc
+xserverrc:
+        out: ~/.xserverrc
+xprofile:
+        out: ~/.xprofile

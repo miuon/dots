@@ -1,6 +1,10 @@
-cat:
-        config: ~/.config/polybar/config
-        scripts/*: ~/.config/polybar/scripts/
-        theme.ini: ~/.config/polybar/theme.ini
-        modules.ini: ~/.config/polybar/modules.ini
-        user_modules.ini: ~/.config/polybar/user_modules.ini
+config:
+        out: ~/.config/polybar/config
+scripts/*:
+        out: ~/.config/polybar/scripts/
+theme.ini:
+        out: ~/.config/polybar/theme.ini
+modules.ini:
+        out: ~/.config/polybar/modules.ini
+user_modules.ini:
+        out: ~/.config/polybar/user_modules.ini

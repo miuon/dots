@@ -1,6 +1,10 @@
-cat:
-        init.vim: ~/.config/nvim/init.vim
-        keymap.vim: ~/.config/nvim/keymap.vim
-        plugins.vim: ~/.config/nvim/plugins.vim
-        deoplete.vim: ~/.config/nvim/deoplete.vim
-        autoload/plug.vim: ~/.local/share/nvim/site/autoload/plug.vim
+init.vim:
+        out: ~/.config/nvim/init.vim
+keymap.vim:
+        out: ~/.config/nvim/keymap.vim
+plugins.vim:
+        out: ~/.config/nvim/plugins.vim
+deoplete.vim:
+        out: ~/.config/nvim/deoplete.vim
+autoload/plug.vim:
+        out: ~/.local/share/nvim/site/autoload/plug.vim

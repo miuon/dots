@@ -1,4 +1,6 @@
-cat:
-        config.rasi: ~/.config/rofi/config.rasi
-        theme.rasi: ~/.config/rofi/theme.rasi
-        scripts/*: ~/.config/rofi/scripts
+config.rasi:
+        out: ~/.config/rofi/config.rasi
+theme.rasi:
+        out: ~/.config/rofi/theme.rasi
+scripts/*:
+        out: ~/.config/rofi/scripts

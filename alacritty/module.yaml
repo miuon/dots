@@ -1,2 +1,2 @@
-cat:
-        alacritty.yml: ~/.config/alacritty/alacritty.yaml
+alacritty.yml:
+        out: ~/.config/alacritty/alacritty.yaml

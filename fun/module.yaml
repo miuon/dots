@@ -1,5 +1,10 @@
-catexec:
-        bonsai: ~/bin/bonsai
-        bonsailoop: ~/bin/bonsailoop
-        colorscript/*: ~/bin/colorscript/
+bonsai:
+        out: ~/bin/bonsai
+        exec: true
+bonsailoop:
+        out: ~/bin/bonsailoop
+        exec: true
+colorscript/*:
+        out: ~/bin/colorscript/
+        exec: true
 
