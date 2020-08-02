@@ -1,4 +1,4 @@
 common.i3config:
         out: ~/.config/i3/config
 theme.i3config:
-        out: ~/.config/i3/theme.i3config
+        out: ~/.config/i3/config
