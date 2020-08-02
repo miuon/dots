@@ -6,3 +6,8 @@ notif_font: SpaceMono Nerd Font Mono
 
 inactive_dim: 0.2
 corner_radius: 20
+border_size: 0
+title_font: SpaceMono Nerd Font Mono
+title_font_size: 10
+gaps_inner: 20
+gaps_outer: 20
