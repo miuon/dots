@@ -8,9 +8,9 @@ set $alt Mod1
 # restart and reload ======================================
 
 # reload the configuration file
-bindsym $mod+Shift+c exec "~/.local/bin/modot reload"
+bindsym $mod+Shift+c exec "~/.local/bin/modot reload && i3-msg reload"
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r exec "~/.local/bin/modot restart"
+bindsym $mod+Shift+r exec "~/.local/bin/modot reload && i3-msg restart"
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-msg exit"
 # suspend
