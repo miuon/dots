@@ -1,39 +1,39 @@
 # oheight
 # special
-fg:		"#fdfdfd"
-bg:		"#202020"
-active:		"#f084ee"
-urgent:		"#c4d683"
-altbg:		"#323232"
+fg: "#fdfdfd"
+bg: "#202020"
+active: "#f084ee"
+urgent: "#c4d683"
+altbg: "#323232"
 
 # black (0, 8)
-black:		"#323232"
-black_alt:	"#414458"
+black: "#323232"
+black_alt: "#414458"
 
 # red (1, 9)
-red:		"#db53d9"
-red_alt:	"#f084ee"
+red: "#db53d9"
+red_alt: "#f084ee"
 
 # green (2, 10)
-green:		"#17c484"
-green_alt:	"#56e7b1"
+green: "#17c484"
+green_alt: "#56e7b1"
 
 # yellow (3, 11)
-yellow:		"#bcde46"
-yellow_alt:	"#c4d683"
+yellow: "#bcde46"
+yellow_alt: "#c4d683"
 
 # blue (4, 12)
-blue:		"#654ada"
-blue_alt:	"#785fe1"
+blue: "#654ada"
+blue_alt: "#785fe1"
 
 # magenta (5, 13)
-magenta:	"#994ada"
-magenta_alt:	"#b775ee"
+magenta: "#994ada"
+magenta_alt: "#b775ee"
 
 # cyan (6, 14)
-cyan:		"#0ebdc1"
-cyan_alt:	"#43dbde"
+cyan: "#0ebdc1"
+cyan_alt: "#43dbde"
 
 # white
-white:		"#fdfdfd"
-white_alt:	"#bebec1"
+white: "#fdfdfd"
+white_alt: "#bebec1"
