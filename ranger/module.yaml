@@ -2,4 +2,5 @@ rc.conf:
         out: ~/.config/ranger/rc.conf
 plugins/:
         out: ~/.config/ranger/plugins/
+        final: true
         dir_contents: true

@@ -4,4 +4,6 @@ theme.rasi:
         out: ~/.config/rofi/theme.rasi
 scripts/:
         out: ~/.config/rofi/scripts
+        exec: true
+        final: true
         dir_contents: true

@@ -8,3 +8,4 @@ deoplete.vim:
         out: ~/.config/nvim/deoplete.vim
 autoload/plug.vim:
         out: ~/.local/share/nvim/site/autoload/plug.vim
+        final: true

@@ -1,11 +1,14 @@
 bonsai:
         out: ~/bin/bonsai
         exec: true
+        final: true
 bonsailoop:
         out: ~/bin/bonsailoop
         exec: true
+        final: true
 colorscript/:
         out: ~/bin/
         exec: true
+        final: true
         dir_contents: true
 
