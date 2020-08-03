@@ -3,6 +3,9 @@ term_font: SpaceMono Nerd Font Mono
 term_font_size: 8.75
 
 notif_font: SpaceMono Nerd Font Mono
+notif_font_size: 16
+rofi_font: SpaceMono Nerd Font Mono
+rofi_font_size: 20
 
 inactive_dim: 0.2
 corner_radius: 20

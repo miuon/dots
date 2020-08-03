@@ -52,7 +52,7 @@
 
     ### Text ###
 
-    font = {{ notif_font }}
+    font = {{ notif_font }} {{ notif_font_size }}
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.

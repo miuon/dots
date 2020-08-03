@@ -1,5 +1,5 @@
 configuration {
-  font: "Space Mono 18";
+  font: "{{ rofi_font }} {{rofi_font_size}}";
   show-icons:         true;
   icon-theme:         "Qogir";
   cycle:              true;
