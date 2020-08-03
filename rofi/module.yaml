@@ -2,5 +2,6 @@ config.rasi:
         out: ~/.config/rofi/config.rasi
 theme.rasi:
         out: ~/.config/rofi/theme.rasi
-scripts/*:
+scripts/:
         out: ~/.config/rofi/scripts
+        dir_contents: true

@@ -1,4 +1,5 @@
 rc.conf:
         out: ~/.config/ranger/rc.conf
-plugins/*:
+plugins/:
         out: ~/.config/ranger/plugins/
+        dir_contents: true

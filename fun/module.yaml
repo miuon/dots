@@ -4,7 +4,8 @@ bonsai:
 bonsailoop:
         out: ~/bin/bonsailoop
         exec: true
-colorscript/*:
-        out: ~/bin/colorscript/
+colorscript/:
+        out: ~/bin/
         exec: true
+        dir_contents: true
 

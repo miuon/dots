@@ -1,7 +1,8 @@
 config:
         out: ~/.config/polybar/config
-scripts/*:
+scripts/:
         out: ~/.config/polybar/scripts/
+        dir_contents: true
 theme.ini:
         out: ~/.config/polybar/theme.ini
 modules.ini:
