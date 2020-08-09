@@ -2,6 +2,7 @@ config:
         out: ~/.config/polybar/config
 scripts/:
         out: ~/.config/polybar/scripts/
+        exec: true
         final: true
         dir_contents: true
 theme.ini:
