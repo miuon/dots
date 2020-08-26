@@ -3,10 +3,10 @@
 # =========================================================
 
 # Colors
-client.focused          {{ active }} {{ active }} {{ bg }} {{ fg }}
-client.focused_inactive {{ altbg }} {{ altbg }} {{ active }} {{ fg }}
-client.unfocused        {{ altbg }} {{ altbg }} {{ fg }} {{ altbg }}
-client.urgent           {{ altbg }} {{ altbg }} {{ urgent }} {{ altbg  }}
+client.focused          {{ active }} {{ active }} {{ bg }} {{ active }}
+client.focused_inactive {{ bg }} {{ bg }} {{ fg }} {{ bg }}
+client.unfocused        {{ bg }} {{ bg }} {{ fg }} {{ bg }}
+client.urgent           {{ altbg }} {{ altbg }} {{ urgent }} {{ altbg }}
 
 for_window [class="^.*"] border pixel {{ border_size }}
 
