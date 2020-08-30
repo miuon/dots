@@ -51,8 +51,7 @@ bindsym $mod+q kill
 
 # more window manip
 bindsym $mod+f fullscreen
-bindsym $mod+w layout stacking
-bindsym $mod+Shift+w layout tabbed
+bindsym $mod+w layout toggle tabbed stacking
 bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
