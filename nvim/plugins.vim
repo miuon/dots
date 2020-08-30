@@ -25,6 +25,7 @@ Plug 'mhartington/nvim-typescript'
 Plug 'tpope/vim-markdown'
 Plug 'junegunn/vim-easy-align'
 Plug 'sirtaj/vim-openscad'
+Plug 'rust-lang/rust.vim'
 
 " File browsing
 Plug 'scrooloose/nerdtree'
