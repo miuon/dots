@@ -3,7 +3,7 @@
     monitor = 0 # ignored
     follow = keyboard
 
-    geometry = "500x4-30+60"
+    geometry = "500x4-12+60"
 
     indicate_hidden = yes
     shrink = no
