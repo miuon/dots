@@ -11,4 +11,10 @@ colorscript/:
         exec: true
         final: true
         dir_contents: true
+joeycam.desktop:
+        out: ~/.local/share/applications/joeycam.desktop
+        final: true
+bearcam.desktop:
+        out: ~/.local/share/applications/bearcam.desktop
+        final: true
 

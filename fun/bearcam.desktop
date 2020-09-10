@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Bearcam
+Exec=mpv "https://www.youtube.com/watch?v=IcWTPFnqOLo"
+Icon=mpv

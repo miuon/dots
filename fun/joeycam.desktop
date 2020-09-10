@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Joey Cam
+Exec=mpv "https://www.youtube.com/watch?v=OjqyQr1Fa4g"
+Icon=mpv
