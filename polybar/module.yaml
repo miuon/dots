@@ -1,4 +1,4 @@
-config:
+config.ini:
         out: ~/.config/polybar/config
 scripts/:
         out: ~/.config/polybar/scripts/
@@ -6,7 +6,7 @@ scripts/:
         final: true
         dir_contents: true
 theme.ini:
-        out: ~/.config/polybar/theme.ini
+        out: ~/.config/polybar/config
 modules.ini:
         out: ~/.config/polybar/modules.ini
 user_modules.ini:
