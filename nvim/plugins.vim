@@ -17,6 +17,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'ervandew/supertab'
 Plug 'deoplete-plugins/deoplete-go'
 Plug 'deoplete-plugins/deoplete-jedi'
+Plug 'sebastianmarkow/deoplete-rust'
 Plug 'eagletmt/neco-ghc'
 
 " Language support/formatting
